@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ancho de columnas automatico</title>
+	<link rel="stylesheet" href="../bootstrap-4.5.0-dist/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col" style="background-color:#aaa">
+				Sin especificar valor
+			</div>
+			<div class="col" style="background-color:#bbb">
+				Sin especificar valor
+			</div>
+			<div class="col" style="background-color:#ccc">
+				Sin especificar valor
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col" style="background-color:#aaa">
+				Sin especificar valor
+			</div>
+			<div class="col-6" style="background-color:#bbb">
+				ancho de 6
+			</div>
+			<div class="col" style="background-color:#ccc">
+				Sin especificar valor
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-auto" style="background-color:#aaa">
+				Ancho automatico, deacuerdo al contenido
+			</div>
+			<div class="col-4" style="background-color:#bbb">
+				ancho de 4
+			</div>
+			<div class="col-auto" style="background-color:#ccc">
+				Ancho auto.
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-auto" style="background-color:#aaa">
+				Ancho automatico, deacuerdo al contenido
+			</div>
+			<div class="col-4" style="background-color:#bbb">
+				ancho de 4
+			</div>
+			<div class="col-auto" style="background-color:#ccc">
+				Ancho auto. Si la última columna es auto y el contenido demasiado grande, se colapsa.
+			</div>
+		</div>
+	</div>
+</body>
+</html>
